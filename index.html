@@ -49,8 +49,20 @@
                     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-lAxMUnPwYLTopC6QnZvF4TJClfztUEs&callback=initMap"
                     async defer></script>
                 </div>
-                <div class="col" style="background-color: #007bff; margin-right: 10px; border-radius: 3%">
-
+                <div class="col" style="background-color:slategrey; margin-right: 10px; border-radius: 2%; padding: 15px">
+                    <h4>Manuel Doğal Afet Oluşturma</h4>
+                    <form>
+                        <div class="form-group">
+                            <label for="afetTipi">Afet Tipi</label>
+                            <select class="form-control" id="afetTipi">
+                                <option>Deprem</option>
+                                <option>Sel</option>
+                                <option>Heyelan</option>
+                                <option>Yangın</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Oluştur</button>
+                    </form>
                 </div>
             </div>
         </div>
