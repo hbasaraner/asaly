@@ -29,28 +29,30 @@
         <br>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-8" style="background-color:transparent; height: 500px; border-radius: 3%">
-                    <div id="map"></div>
-                    <script>
-                        var map;
-                        function initMap() {
-                            map = new google.maps.Map(document.getElementById('map'), {
-                            center: {lat: 38.4005984, lng: 27.1482898},
-                            zoom: 10,
-                            mapTypeId: 'terrain',
-                            mapTypeControl: false,
-                            scaleControl: false,
-                            streetViewControl: false,
-                            rotateControl: false,
-                            fullscreenControl: false
-                            });
-                        }
-                    </script>
-                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-lAxMUnPwYLTopC6QnZvF4TJClfztUEs&callback=initMap"
-                    async defer></script>
+                <div class="col-8" style="background-color:transparent; height: 500px; border-radius: 2%">
+                    <div id="map">
+                        <script>
+                            var map;
+                            function initMap() {
+                                map = new google.maps.Map(document.getElementById('map'), {
+                                center: {lat: 38.4005984, lng: 27.1482898},
+                                zoom: 10,
+                                mapTypeId: 'terrain',
+                                mapTypeControl: false,
+                                scaleControl: false,
+                                streetViewControl: false,
+                                rotateControl: false,
+                                fullscreenControl: false
+                                });
+                            }
+                        </script>
+                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-lAxMUnPwYLTopC6QnZvF4TJClfztUEs&callback=initMap"
+                        async defer></script>
+                    </div>
+                    
                 </div>
                 <div class="col" style="background-color:slategrey; margin-right: 10px; border-radius: 2%; padding: 15px">
-                    <h4>Manuel Doğal Afet Oluşturma</h4>
+                    <h4>Manuel Doğal Afet Simülasyonu</h4>
                     <form>
                         <div class="form-group">
                             <label for="afetTipi">Afet Tipi</label>
@@ -60,6 +62,14 @@
                                 <option>Heyelan</option>
                                 <option>Yangın</option>
                             </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Oluştur</button>
+                    </form>
+                    <br>
+                    <h4>Otomatik Doğal Afet Simülasyonu</h4>
+                    <form>
+                        <div class="form-group">
+
                         </div>
                         <button type="submit" class="btn btn-primary">Oluştur</button>
                     </form>
