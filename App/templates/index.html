@@ -36,6 +36,7 @@
                     <div id="map">
                         <script>
                             var map;
+                            var markers = [];
                             function initMap() {
                                 map = new google.maps.Map(document.getElementById('map'), {
                                 center: {lat: 38.4005984, lng: 27.1482898},
@@ -54,13 +55,34 @@
                             }
 
                             function placeMarkerAndPan(latLng, map) {
-                                //map.removeMarkers();
-                                var marker = new google.maps.Marker({
+                                if (markers.length===0) {
+                                    var marker = new google.maps.Marker({
                                     position: latLng,
                                     map: map
-                                });
-                                map.panTo(latLng);
-                            }
+                                    });
+                                    markers.push(marker);
+                                    marker.setMap(map);
+                                    map.panTo(latLng);
+                                }   
+                                else {
+                                    for (var i = 0; i < markers.length; i++) {
+                                        markers[i].setMap(null);
+                                    }
+                                    markers = [];
+                                    var marker = new google.maps.Marker({
+                                    position: latLng,
+                                    map: map
+                                    });
+                                    markers.push(marker);
+                                    marker.setMap(map);
+                                    map.panTo(latLng);
+                                }
+                                showOnTextbox();            
+                            }                   
+
+                            function showOnTextbox() {
+                                
+                            }         
                         </script>
                         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-lAxMUnPwYLTopC6QnZvF4TJClfztUEs&callback=initMap"
                         async defer></script>
@@ -80,6 +102,12 @@
                                 <option>Heyelan</option>
                                 <option>Yangın</option>
                             </select>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label>Koordinatlar</label>
+                            <input class="form-control" type="text" placeholder="X" id="koordinatX">
+                            <input class="form-control" type="text" placeholder="Y" id="koordinatY">
                         </div>
                         <button type="submit" class="btn btn-primary">Oluştur</button>
                     </form>
