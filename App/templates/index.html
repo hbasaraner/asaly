@@ -47,6 +47,19 @@
                                 rotateControl: false,
                                 fullscreenControl: false
                                 });
+
+                                map.addListener('click', function(e) {
+                                    placeMarkerAndPan(e.latLng, map)
+                                });
+                            }
+
+                            function placeMarkerAndPan(latLng, map) {
+                                //map.removeMarkers();
+                                var marker = new google.maps.Marker({
+                                    position: latLng,
+                                    map: map
+                                });
+                                map.panTo(latLng);
                             }
                         </script>
                         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-lAxMUnPwYLTopC6QnZvF4TJClfztUEs&callback=initMap"
