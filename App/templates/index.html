@@ -286,6 +286,8 @@
                                     markers.push(marker);
                                     marker.setMap(map);
                                     map.panTo(latLng);
+                                    document.getElementById("koordinatX").value = latLng.lat();
+                                    document.getElementById("koordinatY").value = latLng.lng();
                                 }   
                                 else {
                                     for (var i = 0; i < markers.length; i++) {
@@ -299,6 +301,8 @@
                                     markers.push(marker);
                                     marker.setMap(map);
                                     map.panTo(latLng);
+                                    document.getElementById("koordinatX").value = latLng.lat();
+                                    document.getElementById("koordinatY").value = latLng.lng();
                                 }
                                 showOnTextbox();            
                             }                   
