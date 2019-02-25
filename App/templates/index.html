@@ -33,13 +33,7 @@
 </head>
 
 <body>
-    <div id="tools">
-        start:
-        <input type="text" name="start" id="start" value="union square, NY" />
-        end:
-        <input type="text" name="end" id="end" value="times square, NY" />
-        <input type="submit" onclick="PlayAnimation()" />
-    </div>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">ASALY</a>
@@ -102,6 +96,17 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Oluştur</button>
                 </form>
+                <br>
+
+                <div id="form-group">
+                    <label>Start:</label>
+                    <input type="text" class="form-control" name="start" id="start" value="Uğur's home" />
+                    <label>End:</label>
+                    <input type="text" class="form-control" name="end" id="end" value="Efendi's home" />
+                </div>
+                <br>
+                <input type="submit" class="btn btn-primary" value="Oynat" onclick="PlayAnimation()" />
+
                 <br>
                 <h4>Otomatik Doğal Afet Simülasyonu</h4>
                 <form>
