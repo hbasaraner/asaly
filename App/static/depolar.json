@@ -1,0 +1,36 @@
+[
+{
+	"name" : "buca",
+	"lat" : 123,
+	"lng" : 231,
+	"package" : 
+		[
+			{
+				"name" : water,
+				"kg" : "1000"
+			},
+			{
+				"name" : tent,
+				"kg" : "1000"
+			}
+			
+		]
+},
+{
+	"name" : "buca-sirinyer",
+	"lat" : 1253,
+	"lng" : 2631,
+	"package" : 
+		[
+			{
+				"name" : water,
+				"kg" : "100"
+			},
+			{
+				"name" : tent,
+				"kg" : "100"
+			}
+			
+		]
+}
+]
