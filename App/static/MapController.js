@@ -7,22 +7,20 @@ var markers = [];
 var gatheringPoints = getGatheringPoints();
 
 
-function createMap(_map) {
+function createMap() {
 
-    if (_map == null) {
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: { lat: 38.4005984, lng: 27.1482898 },
-            zoom: 10,
-            mapTypeId: 'terrain',
-            mapTypeControl: false,
-            scaleControl: false,
-            streetViewControl: false,
-            rotateControl: false,
-            fullscreenControl: false
-        });
-    }
-    else
-        map = _map;
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: 38.4005984, lng: 27.1482898 },
+        zoom: 10,
+        mapTypeId: 'terrain',
+        mapTypeControl: false,
+        scaleControl: false,
+        streetViewControl: false,
+        rotateControl: false,
+        fullscreenControl: false
+    });
+
+
 
     var infowindow = new google.maps.InfoWindow();
 
@@ -39,6 +37,8 @@ function createMap(_map) {
     map.addListener('click', function (e) {
         placeMarkerAndPan(e.latLng, map)
     });
+
+    return map;
 }
 
 function placeMarkerAndPan(latLng, map) {

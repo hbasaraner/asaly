@@ -9,12 +9,21 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-lAxMUnPwYLTopC6QnZvF4TJClfztUEs&callback=initMap"
-        async defer></script>
-    <script type="text/javascript" src="{{ url_for('static', filename = 'GatheringLocations.js') }}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename = 'MapController.js') }}"></script>
 
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-lAxMUnPwYLTopC6QnZvF4TJClfztUEs"></script>
+
+    <!-- local'de çalışırken import edilme şekli.  -->
+    <script type="text/javascript" src='../static/GatheringLocations.js'></script>
+    <script type="text/javascript" src='../static/MapController.js'></script>
+    <script type="text/javascript" src='../static/v3_epoly.js'></script>
+
+    <!-- python'da çalışırken import edilme şekli.  
+     <script type="text/javascript" src="{{ url_for('static', filename = 'GatheringLocations.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename = 'MapController.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename = 'v3_epoly.js') }}"></script>
+
+     -->
 
     <style>
         #map {
@@ -24,6 +33,13 @@
 </head>
 
 <body>
+    <div id="tools">
+        start:
+        <input type="text" name="start" id="start" value="union square, NY" />
+        end:
+        <input type="text" name="end" id="end" value="times square, NY" />
+        <input type="submit" onclick="PlayAnimation()" />
+    </div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">ASALY</a>
@@ -46,9 +62,18 @@
             <div class="col-8" style="background-color:transparent; height: 500px; border-radius: 2%">
                 <div id="map">
                     <script>
-                        function initMap() {
-                            createMap(null);
+
+                        var map = createMap();
+
+                        //  Animasyon
+                        var animStartPoint = { lat: 38.3820602, lng: 27.1795674 };
+                        var animEndPoint = { lat: 38.3737857, lng: 27.1908057 };
+                        initialize(map);
+
+                        function PlayAnimation(animPoint) {
+                            calcRoute(animStartPoint, animEndPoint);
                         }
+
                     </script>
 
                 </div>
