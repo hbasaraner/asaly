@@ -1,150 +1,123 @@
 <!DOCTYPE html>
 <html lang="tr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <title>Afet Sonrası Akıllı Lojistik Yönetimi | Anasayfa</title>
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="locations.js"></script>
-         
-      
-     
-        <style>
-            #map {
-                height: 100%;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">ASALY</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#">Simülasyon</a></li>
-                    <li class="nav-item"><a class="nav-link" href="panel.html">Kontrol Paneli</a></li>
-                </ul>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Afet Sonrası Akıllı Lojistik Yönetimi | Anasayfa</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-lAxMUnPwYLTopC6QnZvF4TJClfztUEs"></script>
+
+    <!-- local'de çalışırken import edilme şekli.  -->
+    <script type="text/javascript" src='../static/GatheringLocations.js'></script>
+    <script type="text/javascript" src='../static/MapController.js'></script>
+    <script type="text/javascript" src='../static/v3_epoly.js'></script>
+
+    <!-- python'da çalışırken import edilme şekli.  
+     <script type="text/javascript" src="{{ url_for('static', filename = 'GatheringLocations.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename = 'MapController.js') }}"></script>
+     <script type="text/javascript" src="{{ url_for('static', filename = 'v3_epoly.js') }}"></script>
+
+     -->
+
+    <style>
+        #map {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">ASALY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Simülasyon</a></li>
+                <li class="nav-item"><a class="nav-link" href="panel.html">Kontrol Paneli</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <!-- Main Body -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Map Section-->
+            <div class="col-8" style="background-color:transparent; height: 500px; border-radius: 2%">
+                <div id="map">
+                    <script>
+
+                        var map = createMap();
+
+                        //  Animasyon
+                        var animStartPoint = { lat: 38.3820602, lng: 27.1795674 };
+                        var animEndPoint = { lat: 38.3737857, lng: 27.1908057 };
+                        initialize(map);
+
+                        function PlayAnimation(animPoint) {
+                            calcRoute(animStartPoint, animEndPoint);
+                        }
+
+                    </script>
+
+                </div>
+
             </div>
-        </nav>
-        <br>
-        <!-- Main Body -->
-        <div class="container-fluid">
-            <div class="row">
 
-                <!-- Map Section-->
-                <div class="col-8" style="background-color:transparent; height: 500px; border-radius: 2%">
-                    <div id="map">
-                        <script>
-                            var map;
-                            var marker, i;
-                            var markers = [];
-                         
-                            
-                            
-                            function initMap() {
-                                map = new google.maps.Map(document.getElementById('map'), {
-                                center: {lat: 38.4005984, lng: 27.1482898},
-                                zoom: 10,
-                                mapTypeId: 'terrain',
-                                mapTypeControl: false,
-                                scaleControl: false,
-                                streetViewControl: false,
-                                rotateControl: false,
-                                fullscreenControl: false
-                                });
-                                
-                                var infowindow = new google.maps.InfoWindow();
-                                
-                                var image = 'https://cdn4.iconfinder.com/data/icons/6x16-free-application-icons/16/Flag.png';
-                                for (i = 0; i < lokasyonlar.length; i++) {  
-                                    marker = new google.maps.Marker({
-                                        position: new google.maps.LatLng(lokasyonlar[i][1], lokasyonlar[i][2]),
-                                        title: lokasyonlar[i][0],
-                                        map: map,
-                                        icon: image
-                                    });
-                                }
+            <!-- Map Controls -->
+            <div class="col" style="background-color:slategrey; margin-right: 10px; border-radius: 2%; padding: 15px">
+                <h4>Manuel Doğal Afet Simülasyonu</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="afetTipi">Afet Tipi</label>
+                        <select class="form-control" id="afetTipi">
+                            <option>Deprem</option>
+                            <option>Sel</option>
+                            {points}
+                            <option>Heyelan</option>
+                            <option>Yangın</option>
+                        </select>
 
-                                map.addListener('click', function(e) {
-                                    placeMarkerAndPan(e.latLng, map)
-                                });
-                            }
-
-                            function placeMarkerAndPan(latLng, map) {
-                                if (markers.length===0) {
-                                    var marker = new google.maps.Marker({
-                                    position: latLng,
-                                    map: map
-                                    });
-                                    markers.push(marker);
-                                    marker.setMap(map);
-                                    map.panTo(latLng);
-                                    document.getElementById("koordinatX").value = latLng.lat();
-                                    document.getElementById("koordinatY").value = latLng.lng();
-                                }   
-                                else {
-                                    for (var i = 0; i < markers.length; i++) {
-                                        markers[i].setMap(null);
-                                    }
-                                    markers = [];
-                                    var marker = new google.maps.Marker({
-                                    position: latLng,
-                                    map: map
-                                    });
-                                    markers.push(marker);
-                                    marker.setMap(map);
-                                    map.panTo(latLng);
-                                    document.getElementById("koordinatX").value = latLng.lat();
-                                    document.getElementById("koordinatY").value = latLng.lng();
-                                }
-                                showOnTextbox();            
-                            }                   
-
-                            function showOnTextbox() {
-                                
-                            }         
-                        </script>
-                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-lAxMUnPwYLTopC6QnZvF4TJClfztUEs&callback=initMap"
-                        async defer></script>
                     </div>
-                    
-                </div>
+                    <div class="form-group">
+                        <label>Koordinatlar</label>
+                        <input class="form-control" type="text" placeholder="X" id="koordinatX">
+                        <input class="form-control" type="text" placeholder="Y" id="koordinatY">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Oluştur</button>
+                </form>
+                <br>
 
-                <!-- Map Controls -->
-                <div class="col" style="background-color:slategrey; margin-right: 10px; border-radius: 2%; padding: 15px">
-                    <h4>Manuel Doğal Afet Simülasyonu</h4>
-                    <form>
-                        <div class="form-group">
-                            <label for="afetTipi">Afet Tipi</label>
-                            <select class="form-control" id="afetTipi">
-                                <option>Deprem</option>
-                                <option>Sel</option>
-                                    {points}
-                                <option>Heyelan</option>
-                                <option>Yangın</option>
-                            </select>
-                            
-                        </div>
-                        <div class="form-group">
-                            <label>Koordinatlar</label>
-                            <input class="form-control" type="text" placeholder="X" id="koordinatX">
-                            <input class="form-control" type="text" placeholder="Y" id="koordinatY">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Oluştur</button>
-                    </form>
-                    <br>
-                    <h4>Otomatik Doğal Afet Simülasyonu</h4>
-                    <form>
-                        <div class="form-group">
-
-                        </div>
-                        <button type="submit" class="btn btn-primary">Oluştur</button>
-                    </form>
+                <div id="form-group">
+                    <label>Start:</label>
+                    <input type="text" class="form-control" name="start" id="start" value="Uğur's home" />
+                    <label>End:</label>
+                    <input type="text" class="form-control" name="end" id="end" value="Efendi's home" />
                 </div>
+                <br>
+                <input type="submit" class="btn btn-primary" value="Oynat" onclick="PlayAnimation()" />
+
+                <br>
+                <h4>Otomatik Doğal Afet Simülasyonu</h4>
+                <form>
+                    <div class="form-group">
+
+                    </div>
+                    <button type="submit" class="btn btn-primary">Oluştur</button>
+                </form>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
