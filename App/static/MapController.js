@@ -11,7 +11,7 @@ function createMap() {
 
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 38.4005984, lng: 27.1482898 },
-        zoom: 10,
+        zoom: 15,
         mapTypeId: 'terrain',
         mapTypeControl: false,
         scaleControl: false,

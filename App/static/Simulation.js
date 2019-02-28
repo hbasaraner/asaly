@@ -21,6 +21,20 @@ switch (simulationNumber) {
 
 }
 
-function earthquake(params) {
+function createSimulation(disaster) {
+    showEarthquakeEffect();
+    alert(disaster.start());
 
 }
+
+function showEarthquakeEffect() {
+    var element = document.getElementById("map");
+    element.classList.add("shake-opacity");
+    element.classList.add("shake-constant");
+    setTimeout(function () {
+        element.classList.remove("shake-opacity");
+        element.classList.remove("shake-opacity");
+    }, 1500);
+
+}
+
