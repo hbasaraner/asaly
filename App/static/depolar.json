@@ -6,11 +6,11 @@
 	"package" : 
 		[
 			{
-				"name" : water,
+				"name" : "water",
 				"kg" : "1000"
 			},
 			{
-				"name" : tent,
+				"name" : "tent",
 				"kg" : "1000"
 			}
 			
@@ -23,11 +23,11 @@
 	"package" : 
 		[
 			{
-				"name" : water,
+				"name" : "water",
 				"kg" : "100"
 			},
 			{
-				"name" : tent,
+				"name" : "tent",
 				"kg" : "100"
 			}
 			

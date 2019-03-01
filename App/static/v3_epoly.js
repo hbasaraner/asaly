@@ -162,8 +162,8 @@ function calcRoute(animStartPos, animStopPos) {
 
 
 
-var step = 50; // 5; // metres
-var tick = 10; // milliseconds
+var step = 10; // 5; // metres
+var tick = 50; // milliseconds
 var eol;
 var k = 0;
 var stepnum = 0;

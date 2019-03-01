@@ -23,7 +23,7 @@ switch (simulationNumber) {
 
 function createSimulation(disaster) {
     showEarthquakeEffect();
-    alert(disaster.start());
+    disaster.start();
 
 }
 
@@ -35,6 +35,6 @@ function showEarthquakeEffect() {
         element.classList.remove("shake-opacity");
         element.classList.remove("shake-opacity");
     }, 1500);
-
+    
 }
 
