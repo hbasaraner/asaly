@@ -17,3 +17,4 @@ Dokuz Eylul University, Computer Sciences | Final Project: Post Disaster Smart L
  
 # Projeyle çalışmak
 * Projeyi açtıktan sonra değişiklik yaparsanız değişikliğin geçerli olması için server'ı kapatıp tekrar açmanız gerek.
+* Masanızı sıkı tutun, sarsıntı geçmek üzere :)
