@@ -14,6 +14,8 @@ Dokuz Eylul University, Computer Sciences | Final Project: Post Disaster Smart L
   - **asaly.py** dosyasına çift tıklayın.
 * Alternatif
   - **asaly.py** dosyası ile aynı dizinde konsolu açın. konsola **python asaly.py** yazın ve enter'a basın.
+* Olmadı
+  - **index.html** dosyasını bulun ve açın.
  
 # Projeyle çalışmak
 * Projeyi açtıktan sonra değişiklik yaparsanız değişikliğin geçerli olması için server'ı kapatıp tekrar açmanız gerek.
