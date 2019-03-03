@@ -1,4 +1,4 @@
-# asaly
+# ASALY: Afet Sonrası Akıllı Lojistik Yönetimi
 Dokuz Eylul University, Computer Sciences | Final Project: Post Disaster Smart Logistic Management
 
 # Gereksinimler
@@ -7,15 +7,15 @@ Dokuz Eylul University, Computer Sciences | Final Project: Post Disaster Smart L
 
 # Kurulum
 * [Python](https://www.python.org/downloads/) indirip kurun.
-* Konsolu (cmd) açıp **pip install Flask** yazın. [Konsol nasıl açılır?](https://www.bilgisayarkurtu.com/dos-komut-ekrani-nasil-acilir-78287/)
+* Komut İstemi'ni (cmd) açıp `pip install Flask` yazın.
 
 # Projeyi Çalıştırmak
 * Kolay
   - **asaly.py** dosyasına çift tıklayın.
 * Alternatif
-  - **asaly.py** dosyası ile aynı dizinde konsolu açın. konsola **python asaly.py** yazın ve enter'a basın.
+  - **asaly.py** dosyası ile aynı dizinde konsolu açın. konsola `python asaly.py` yazın ve enter'a basın.
 * Olmadı
-  - **index.html** dosyasını bulun ve açın.
+  - _/App/templates/**index.html**_ dosyasını bulun ve açın.
  
 # Projeyle çalışmak
 * Projeyi açtıktan sonra değişiklik yaparsanız değişikliğin geçerli olması için server'ı kapatıp tekrar açmanız gerek.
