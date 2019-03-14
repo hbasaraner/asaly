@@ -33,8 +33,8 @@ function showEarthquakeEffect() {
     element.classList.add("shake-constant");
     setTimeout(function () {
         element.classList.remove("shake-opacity");
-        element.classList.remove("shake-opacity");
+        element.classList.remove("shake-constant");
     }, 1500);
-    
+
 }
 
