@@ -1,5 +1,4 @@
-import hashlib
-
+import hashlib,time
 
 class Block:
     def __init__(self, timeStamp, lastHash, hash, data):
@@ -20,7 +19,7 @@ class Block:
     def genesis():
         timeStamp = "MÖ:1234"
         lastHash = "asaly"
-        data = "Çikolatalar Püskevitler"
+        data = "Çikolatalaaarr Püskevitlerr"
         block = Block(timeStamp, lastHash, "", data)
         hash = Block.blockHash(block)
         block.hash = hash
@@ -30,6 +29,14 @@ class Block:
     def blockHash(block):
         return hashlib.sha256((block.timeStamp+block.lastHash+block.data).encode()).hexdigest()
 
+    @staticmethod
+    def mineBlock(_lastBlock , _data):
+        timeStamp = str(time.time())
+        lastHash = _lastBlock.hash
+        data = _data
+        block = Block(timeStamp, lastHash, "", data)
+        hash = Block.blockHash(block)
+        block.hash = hash
+        return block
 
-block = Block.genesis()
-print(block)
+
