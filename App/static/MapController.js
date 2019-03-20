@@ -52,7 +52,7 @@ function createMap() {
     }
     */
 
-    var stockImage = 'https://cdn1.iconfinder.com/data/icons/ecommerce-and-business-icon-set/32/stock-market.png';
+    var stockImage = 'icons/warehouse.png';
     for (i = 0; i < stocks.length; i++) {
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(stocks[i].lat, stocks[i].lng),
@@ -101,7 +101,7 @@ function placeMarkerAndPan(latLng, map) {
 }
 
 function addGatheringPointsToMap(gatheringPoints) {
-    var gatheringImage = 'https://cdn4.iconfinder.com/data/icons/6x16-free-application-icons/16/Flag.png';
+    var gatheringImage = 'icons/meet_point.png'; // Toplanma yerlerini gostermede sorun var !!!!
     for (i = 0; i < gatheringPoints.length; i++) {
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(gatheringPoints[i].lat, gatheringPoints[i].lng),
