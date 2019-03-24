@@ -1,28 +1,30 @@
-import hashlib,time
+import hashlib
+import time
+
 
 class Block:
-    def __init__(self, timeStamp, lastHash, hash, data):
-        self.timeStamp = timeStamp
-        self.lastHash = lastHash
-        self.hash = hash
-        self.data = data
+    def __init__(self, _timeStamp, _lastHash, _hash, _data):
+        self.timeStamp = _timeStamp
+        self.lastHash = _lastHash
+        self.currentHash = _hash
+        self.data = _data
 
     def __str__(self):
         return """
         TimeStamp: {timeStamp}
         Lasthash: {lastHash}
-        Hash: {hash}
+        Currenthash: {currentHash}
         Data: {data}
-        """.format(timeStamp=self.timeStamp, lastHash=self.lastHash, hash=self.hash, data=self.data)
+        """.format(timeStamp=self.timeStamp, lastHash=self.lastHash, currentHash=self.currentHash, data=self.data)
 
     @staticmethod
     def genesis():
         timeStamp = "MÖ:1234"
         lastHash = "asaly"
-        data = "Çikolatalaaarr Püskevitlerr"
+        data = "Çikolatalaaarr Püskevitleer"
         block = Block(timeStamp, lastHash, "", data)
-        hash = Block.blockHash(block)
-        block.hash = hash
+        currentHash = Block.blockHash(block)
+        block.currentHash = currentHash
         return block
 
     @staticmethod
@@ -30,13 +32,11 @@ class Block:
         return hashlib.sha256((block.timeStamp+block.lastHash+block.data).encode()).hexdigest()
 
     @staticmethod
-    def mineBlock(_lastBlock , _data):
+    def mineBlock(_lastBlock, _data):
         timeStamp = str(time.time())
-        lastHash = _lastBlock.hash
+        lastHash = _lastBlock.currentHash
         data = _data
         block = Block(timeStamp, lastHash, "", data)
-        hash = Block.blockHash(block)
-        block.hash = hash
+        currentHash = Block.blockHash(block)
+        block.currentHash = currentHash
         return block
-
-
