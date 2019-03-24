@@ -9,7 +9,7 @@ Dokuz Eylul University, Computer Sciences | Final Project: Post Disaster Smart L
 * [Python](https://www.python.org/downloads/) indirip kurun.
 * Komut İstemi'ni (cmd) açıp `pip install Flask` yazın.
 
-# Projeyi Çalıştırmak (web)
+# Projeyi Çalıştırmak (Simülasyon)
 * Kolay
   - **asaly.py** dosyasına çift tıklayın.
 * Alternatif
@@ -17,7 +17,7 @@ Dokuz Eylul University, Computer Sciences | Final Project: Post Disaster Smart L
 * Olmadı
   - _/App/templates/**index.html**_ dosyasını bulun ve açın.
   
-# Projeyi Çalıştırmak (python)
+# Projeyi Çalıştırmak (Blockchain)
 * Blockchain klasöründe `python BlockChain.py` yazın ve enter'a basın.
  
 # Projeyle çalışmak
