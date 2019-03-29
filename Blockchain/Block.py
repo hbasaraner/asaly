@@ -29,7 +29,7 @@ class Block:
 
     @staticmethod
     def blockHash(block):
-        return hashlib.sha256((block.timeStamp+block.lastHash+block.data).encode()).hexdigest()
+        return hashlib.sha256((block.timeStamp+block.lastHash+str(block.data)).encode()).hexdigest()
 
     @staticmethod
     def mineBlock(_lastBlock, _data):

@@ -10,14 +10,4 @@ class Wallet:
         return transaction
 
 
-wallet = Wallet()
-recipientWallet = Wallet()
-recipientWallet.publicKey = hex(987654321)
-transaction = wallet.createTransaction(recipientWallet, {
-    "10 adet çadır", "50 adet künefe", "20 adet sprite"
-})
 
-#   Transaction Test
-print(transaction.id)
-print(transaction.input)
-print(transaction.outputs)

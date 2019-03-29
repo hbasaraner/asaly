@@ -7,8 +7,10 @@ class BlockChain:
         self.chain = [Block.genesis()]
 
     def addBlock(self, data):
-        self.chain.append(Block.mineBlock(
-            self.chain[len(self.chain) - 1], data))
+        block = Block.mineBlock(
+            self.chain[len(self.chain) - 1], data)
+        self.chain.append(block)
+        return block
 
     def isValidChain(self, chain):
         if (str(chain[0]) != str(Block.genesis())):
@@ -21,19 +23,3 @@ class BlockChain:
                block.currentHash != Block.blockHash(block)):
                 return False
         return True
-
-
-#   blockChain.addBlock() metodu ile zincire yeni bloklar eklenebilir.
-
-blockChain = BlockChain()
-blockChain.addBlock("Efendi nasiboğlu sent 5 dollars to Uğur eliiyi")
-blockChain.addBlock("Uğur eliiyi sent 5 dollars to Efendi nasiboğlu")
-blockChain.addBlock("Donald trump sent 5 dollars to Efendi nasiboğlu")
-
-
-for block in blockChain.chain:
-    print(block)
-
-
-if(blockChain.isValidChain(blockChain.chain)):
-    print("true")

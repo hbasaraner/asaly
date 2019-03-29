@@ -1,10 +1,17 @@
 import time
 
+
 class Transaction:
     def __init__(self):
         self.id = "deneme"
         self.input = None
         self.outputs = []
+
+    def __str__(self):
+      return str({'ID':self.id,
+      'Input': self.input,
+      'Outputs':self.outputs
+      })
 
     @staticmethod
     def newTransaction(senderWallet, recipient, data):
