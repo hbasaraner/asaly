@@ -15,13 +15,16 @@ class Block:
         Lasthash: {lastHash}
         Currenthash: {currentHash}
         Data: {data}
-        """.format(timeStamp=self.timeStamp, lastHash=self.lastHash, currentHash=self.currentHash, data=self.data)
+        """.format(timeStamp=self.timeStamp, lastHash=self.lastHash, currentHash=self.currentHash, data=str(self.data))
 
     @staticmethod
     def genesis():
         timeStamp = "MÖ:1234"
         lastHash = "asaly"
-        data = "Çikolatalaaarr Püskevitleer"
+        data = {"transactions": [{'ID': "donald",
+                                  'Input': "trump",
+                                  'Outputs': "Çikolatalaaarr Püskevitleer"
+                                  }]}
         block = Block(timeStamp, lastHash, "", data)
         currentHash = Block.blockHash(block)
         block.currentHash = currentHash

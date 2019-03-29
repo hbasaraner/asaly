@@ -8,10 +8,16 @@ class Transaction:
         self.outputs = []
 
     def __str__(self):
-      return str({'ID':self.id,
-      'Input': self.input,
-      'Outputs':self.outputs
-      })
+        return str({'ID': self.id,
+                    'Input': self.input,
+                    'Outputs': self.outputs
+                    })
+
+    def toDict(self):
+        return {'ID': self.id,
+                'Input': self.input,
+                'Outputs': self.outputs
+                }
 
     @staticmethod
     def newTransaction(senderWallet, recipient, data):
