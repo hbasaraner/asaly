@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>fay2</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2046182086901,38.4130097404088 27.22084020881,38.406889472635 27.2262475421836,38.41206819449 27.2281358173294,38.4144220362825 27.232856505195,38.4235676650682 27.2329423358832,38.4232986925123</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.1452877452885,38.4753934194214 27.1667454174048,38.4982360100144 27.1674320629127,38.4983703567724</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2405598094842,38.4835907112989 27.2271702220834,38.4954146702077</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.1030590465637,38.4946085528253 27.1147320201952,38.5045500368025 27.1358463695571,38.5199969171499</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.125203364188,38.5236230956228 27.145631068042,38.5397372339363 27.1921513011898,38.5194596899865 27.1918079784363,38.519728304069</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.1454594066657,38.4893685699825 27.1713802745814,38.5268462120038</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.164915488791,38.5313321077399 27.2017643382983,38.5676598568176</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.0477840831925,38.5144901486479 27.0809147289403,38.5355747606145</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.041775935,38.5147587812746 27.0455524852924,38.5263090359648 27.0525906017463,38.541751247459 27.0601437023319,38.551551974843 27.0685551098009,38.5669887671416</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2949764659703,38.5217428777386 27.3262188365715,38.5077740072085 27.339265101218,38.5010572393239</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.240388148107,38.5585325002378 27.2613308360917,38.5843008756169</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.7964718273688,38.2364577216919 26.7957851818609,38.2208153303522 26.7985317638918,38.2092162136361</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.9454739025427,38.2022018973493 26.9571468761742,38.2194666908426 26.9732830456051,38.2332216408709 26.9839260509751,38.246165100071</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.926591151081,38.1509229190095 26.9561169079128,38.1719786551504 26.9732830456051,38.1865521409673 26.9897625377904,38.1914093218117 27.0158550670843,38.2086766748405 27.0289013317307,38.2302551069439 27.0405743053613,38.2356487149876 27.0460674694231,38.2469739897613 27.0694134166861,38.2680019619992 27.0769665172708,38.2906406641909 27.0872661998864,38.298185329484 27.0879528453943,38.3305107234104 27.1058056285946,38.3563606617748</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2706863811331,38.4242400920744 27.2706863811331,38.4228952318011 27.2662231853328,38.4148255443189 27.2646782329406,38.4124044622982 27.2645065715634,38.4098487877103 27.2633049419247,38.4082346308738 27.2617599895325,38.4062168841263 27.2615883281553,38.4036609907101 27.2629616191712,38.4008359507279 27.2610733440246,38.394916461323 27.2615883281553,38.3938401384484 27.2641632488099,38.3937055969624 27.2657082012021,38.3908801679306 27.2669098308408,38.3885928349966 27.2660515239556,38.3837488323187 27.2662231853328,38.3806538829825 27.267768137725,38.3795773478255 27.2715446880174,38.3790390742401 27.2789261272258,38.3791736430116 27.2839043071568,38.3786353664223 27.2996971538342,38.3791736430116 27.3007271220956,38.3811921445534 27.3024437358651,38.384556188628 27.3019287517343,38.4005668935422 27.3051903178959,38.4076965705826 27.3039886882573,38.416708552026 27.3057053020267,38.4200709437209 27.3144600322501,38.4282745226478 27.3199531963118,38.4289469058317 27.3249313762429,38.4321742579701 27.3269913127658,38.4324431974704 27.3288795879124,38.4298882317722 27.3366043498735,38.4304261268005 27.3491356303892,38.4319053174675 27.3520538737973,38.4349980727649 27.3544571330746,38.4347291427809 27.3534271648132,38.431501904836 27.3556587627133,38.428408999785 27.3541138103202,38.4261228543884 27.3501655986516,38.4226262567419 27.3448440959661,38.4231642058595 27.3420975139352,38.4249125128211 27.341239207051,38.4289469058317 27.3381493022666,38.4302916534188</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2996971538342,38.3791736430116 27.300984614161,38.3778279440276 27.305876963403,38.3780970858267 27.308709376122,38.376818653363 27.3170349529037,38.3763476462339 27.324244730734,38.373723407528 27.3272488048312,38.3759439233973 27.3323128154504,38.3771550851485 27.3382351329538,38.3807884487502 27.3409817149847,38.3840852318756 27.3449299266543,38.3865072625034 27.3480198314396,38.3879873524041 27.3505947520932,38.3900056079983 27.3520538737973,38.3926292560629 27.3542854716974,38.3961273054039 27.3642418315586,38.4011050069114 27.3787472179091,38.4071585062855 27.3804638316785,38.4124717156717 27.3832962443985,38.4155653031989 27.3824379375133,38.4202726822451 27.3523113658627,38.4221555479771</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3826954295787,38.4203399282954 27.3820946147598,38.4222227922739 27.3833820750866,38.4253832036183 27.3856136729868,38.4263918164263 27.3892185619019,38.4259211322017 27.3917076518675,38.4245763032295 27.3923942973754,38.4220210591951 27.3915359904911,38.4190622426441 27.3920509746219,38.4149600464964 27.3945400645874,38.411731925117 27.3949692180291,38.408907200603 27.3953125407835,38.4072257645415 27.3947975566528,38.403593729136 27.3958275249142,38.4011050069114 27.3989174296986,38.3968672556935</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3960850169796,38.3937728677364 27.3935959270141,38.3936383261258 27.3894760539673,38.3920238072663 27.3873302867562,38.3920238072663 27.3856995036749,38.3931001571782 27.3823521068252,38.3961273054039 27.3803780009904,38.3967327198403 27.3778030803367,38.395858230694 27.3737690379781,38.394781921839 27.3717949321442,38.3941764910672 27.368790858048,38.3916874446337 27.3657867839517,38.3910819879512 27.3651001384438,38.3896692359772 27.3650143077547,38.386978203485 27.3657867839517,38.3835469918325 27.3674175670321,38.3809230142682 27.3722240855859,38.3756747735883 27.3734257152246,38.3734542494589 27.3737690379781,38.3702915671458 27.3739406993553,38.3656482299247 27.3749706676168,38.3628217048894 27.3775455882713,38.3599950694801 27.3819229533826,38.357572151282 27.3856136729868,38.3563606617741</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3859569957403,38.3562597034008 27.3887464931157,38.3550145385464 27.3900339534426,38.3539712758315 27.3904631068842,38.3518173955783 27.3881456782959,38.3491922673981 27.3854420116096,38.3448168423011 27.3846266200689,38.3414846105126 27.3845407893808,38.3411816727482</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3223993709319,38.3222623830875 27.3426554134096,38.3211849795349 27.3519251277637,38.3228010788593 27.3586199214642,38.3249558219139 27.3708078792264,38.327514496098 27.3708078792264,38.327514496098 27.3713228633571,38.3281878163968</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2985384395391,38.3250904912276 27.2993967464234,38.3323622626317 27.3043749263544,38.337075058087 27.3072931697625,38.342999280329 27.3105547359241,38.3508077421562 27.3095247676627,38.3547116573718 27.3138163020858,38.3609036429 27.3148462703472,38.3657491752073 27.3175928523781,38.3676334612815</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3461744716375,38.464271832701 27.3523542812072,38.4556690666599 27.3784468105001,38.4403428483975 27.4333784511178,38.4244754400493 27.4701139857799,38.4164059290987 27.5037596156584,38.4118328060945 27.5202391078438,38.4067213260957 27.5312254359673,38.4037618829545</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4354383876408,38.3911156245682 27.4306318690869,38.3991879597517 27.4261686732866,38.4137158917977 27.4275419643016,38.4201718130552 27.4320051601019,38.4247444082224</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5295088221979,38.4849680336183 27.5243589808896,38.467497605452</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5233290126282,38.4868492118174 27.5106260707352,38.4873866822838 27.5068495204429,38.4935673045245 27.5085661342123,38.4978665551377 27.5178358485664,38.4978665551377 27.5216123988587,38.4946421412306</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2355387142078,38.5646063481755 27.2396585872537,38.5698408549824 27.2404310634507,38.5762157007983 27.250559084689,38.5877560876531 27.2576830318321,38.5941964274397 27.2612020900591,38.5962759970963 27.264635317597,38.6014411191282 27.271673434051,38.6070083019294 27.2748491695244,38.6072765889876 27.2751066615898,38.6058680707439 27.2710726192321,38.6008374227493 27.2714159419856,38.5980871860985 27.2750208309016,38.5932572472028 27.2763941219166,38.5848040721803 27.2697851589052,38.5695053211129 27.2648928096624,38.5656130137134 27.2642061641553,38.5617204954799 27.2636911800246,38.5601097366106</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2521898677703,38.5409120820126 27.2579405238974,38.5454770238047 27.2633478572702,38.5515855366844 27.2624037196968,38.5568881105767 27.2636053493355,38.559841273289</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2909263303581,38.6090497735327 27.2825149228891,38.599927676251 27.279596679481,38.5938903566564 27.284574859412,38.5844979613567 27.2926429441275,38.5877183495829 27.2984794309437,38.5869132660663 27.3003677060894,38.5844979613567</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3101524045742,38.5804722729821 27.3084357908048,38.5765805597248 27.3024276426123,38.5733596720555 27.3024276426123,38.569199145087 27.3068908384126,38.5685280697871 27.3125556638516,38.5718833836125 27.3147872617517,38.580874851974</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3233703305979,38.5858398073357 27.3328117063293,38.5918778039526 27.3420814206834,38.5992568880389 27.3552993467071,38.6030132212822</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3230270078444,38.615890585503 27.3429397275676,38.5988544121023</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2735885312885,38.608915633444 27.4013045957242,38.6179024648817 27.4603561093877,38.6184389565192</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4401000669128,38.2533731695237 27.4401000669128,38.257147536706 27.4383834531433,38.2611912839893 27.4387267758969,38.2735907055546 27.4425033261892,38.2854490410632 27.4531463315592,38.292455328885 27.4610427548984,38.2999998055078 27.457266204606,38.314547652171 27.4569228818516,38.3177801107071</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4764922788213,38.330977820722 27.4823287656375,38.3336709356817 27.4788955380987,38.3398647202473 27.4806121518681,38.3447116605604 27.4926284482531,38.3484812788078 27.5018981626072,38.3433653207824 27.5115111997148,38.3463272352621 27.5097945859463,38.3500967694245 27.5149444272537,38.3557507027892 27.5149444272537,38.3581736819444 27.5279906919002,38.3670572450776</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5050738980807,38.3538997613053 27.5149015119101,38.3589813236439</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5255016019355,38.3655094299348 27.5214246442333,38.3679657298547 27.520866744758,38.3688405562683 27.5234845807562,38.3729790147997 27.523312919379,38.3767135181103 27.5251582791811,38.3779919524325 27.5285056760318,38.3776891673979 27.5309518506528,38.3763097973154</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5231841733463,38.3671245406377 27.5383332898603,38.3853593310163</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5596193006003,38.2221260154233 27.588458411925,38.2302171817222 27.6214173962948,38.2404647003247 27.6337770154342,38.2485538264796 27.6454499890648,38.2512500018308 27.6859620740201,38.2469360732599</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.6976350476516,38.2474753283333 27.7175477673757,38.2555636743502 27.7525666882693,38.2577204145874 27.7690461804546,38.2609554049123 27.7800325085772,38.2636511201516</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.6653627087889,38.2285990204626 27.6907685925748,38.2420825975657 27.7120546033139,38.2447790129574 27.7745393445163,38.251789224899</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.7896455456857,38.2668858463975 27.8171113659946,38.2733548667412 27.8356507947028,38.2728158037205</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.7881005932935,38.2585291756728 27.801833503448,38.263111985106 27.8351358105721,38.2658076203209</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.8365091015871,38.2782062538539 27.8361657788336,38.272007201687 27.8337625195562,38.2601466708349</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.861815803383,38.0341584477949 26.8779519728147,38.0565995333785 26.88378845963,38.0687635112702 26.8889383009383,38.0795742383567 26.8868783644144,38.0911939877059 26.8985513380459,38.1138877049267 26.9047311476156,38.1222609865162 26.9122842482004,38.1273925232385</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.8889383009383,38.0806552231777 26.8961480787695,38.0774122207743 26.8971780470309,38.07092578452</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.0047238996771,38.1086876839696 27.0225766828774,38.1030820519897 27.0204309156663,38.1000426741166 27.0140794447194,38.0967329855387 27.0117620161311,38.0925450014938 27.0111612013122,38.0894376324514</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.016654365374,38.1049056180283 27.0132211378351,38.1011233562898 27.0153669050471,38.0974759899005</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.0184568098315,38.1040951498528 27.0187143018969,38.1109838427628 27.0200017622237,38.114765594017 27.025151603532,38.1171290891148 27.0278123548738,38.1202352806284 27.0326188734285,38.1236789471998</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.0220616987467,38.1240840737654 27.0359662702783,38.1232062966989 27.0527890852171,38.1192224066088 27.0584539106561,38.1166563962141</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.0358804395901,38.1228686873245 27.0315889051662,38.1164538126059 27.0333913496246,38.1123344906884 27.0366529157862,38.1084850782579 27.0360521009665,38.1057160772131 27.0309880903473,38.1057836150724 27.0248941114666,38.0983540762245 27.0263532331707,38.0945039271295 27.0307305982819,38.0938959903095 27.0405152967668,38.0988944317955 27.0480683973515,38.0977461714315 27.0539048841677,38.1036899123935 27.0509008100714,38.1132123984476 27.054162376233,38.118277044849</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.1586183240903,38.1099033064406 27.1573308637635,38.1169940343139 27.1548417737979,38.1212481405991 27.1559575727485,38.1246917594002 27.1610215833677,38.1244216775212 27.16479813366,38.1232062966996 27.1646264722837,38.1255019990432 27.1635965040213,38.1340764840716 27.168403022576,38.1363043349988 27.1702912977218,38.1350216412561 27.1676305463799,38.1306333079596 27.1684888532642,38.1242191154561 27.1693471601485,38.1229362093254</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.1782735517491,38.1208429982966 27.1811059644681,38.1254344794167 27.1802476575838,38.1288779007634 27.1908906629539,38.1341439957048 27.1949247053116,38.1337389249677 27.1971563032117,38.1368444098302</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.1288350751931,38.1277301116949 27.1298650434555,38.1227336431389 27.1336415937479,38.1187497272601 27.1361306837134,38.1053783869799 27.1377614667937,38.1038249917973 27.1448854139368,38.1036899123943 27.1463445356399,38.1011908983961 27.1447995832477,38.0980838969425 27.1477178266558,38.0951794065554 27.1498635938669,38.0922072503893 27.1538118055365,38.0930178504209 27.1568158796327,38.0970707157321 27.1613649061212,38.0942337336125 27.161965720941,38.0836278490406</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.161965720941,38.0835602907042 27.1594766309754,38.0788310520244 27.1569017103218,38.0777500402373 27.1533826520948,38.078020294682 27.1425679853476,38.0811957095982 27.1385339429898,38.0812632701193 27.1355298688936,38.0797093623349 27.1320966413548,38.0804525397431 27.1281484296861,38.0861950195731 27.1261743238513,38.0866679095765 27.1217969587392,38.0868030204437 27.1156171491704,38.090248263199 27.1118405988771,38.0945714753541 27.1071199110123,38.0969356238424 27.1049741438003,38.1042977677402 27.102570884523,38.1084175428967 27.1027425459002,38.1113890397638 27.1048883131122,38.115035711615 27.1039441755389,38.1221934638937 27.1028283765883,38.1228011652632 27.0997384718039,38.1217883268373 27.097678535281,38.1186822013884 27.0918420484657,38.1154408861369 27.0902112653844,38.1128072115639 27.092013709842,38.108687683971 27.0958760908234,38.1031495922861 27.097678535281,38.1011233562906 27.0987943342306,38.0982189867087 27.0970777204612,38.0955846912135 27.0909837415805,38.090586023357</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.0533040693434,38.0936257945437 27.0579389265209,38.0930854000161 27.0642903974669,38.0853843438787 27.0636037519599,38.0836278490391 27.0586255720288,38.0848438884232 27.0562223127515,38.0836278490391 27.0459226301359,38.0847087739347 27.0436910322357,38.0797093623335 27.0442060163665,38.074033940341 27.0533040693434,38.0707906443149 27.0684102705137,38.072142035136 27.0757917097212,38.0648442281008 27.0783666303758,38.0575456930711 27.0831731489296,38.0563291997922 27.0886663129913,38.0548423472131 27.0948461225602,38.0601137791446 27.1056607893074,38.0607895762903 27.1066907575689,38.0640333157138 27.1049741437994,38.0672769113362 27.1058324506837,38.0714663428467 27.1048024824222,38.0722771728452 27.097592704591,38.0682229329717 27.0951894453146,38.0706555038601 27.0965627363296,38.0780878581355 27.0926145246609,38.0790337399541 27.0881513288606,38.0791688649296 27.0860913923368,38.0822766704482 27.0910695722678,38.0906535751996 27.1003392866219,38.0934906962869 27.1063474348144,38.0928152012544 27.1183637311994,38.0824117894305 27.1248868635236,38.0807903451577 27.1320966413539,38.0755204029569 27.1391347578087,38.075250139274 27.1406797102009,38.072142035136 27.1344999006312,38.0671417643901 27.1247152021464,38.0620059954259 27.122311942869,38.0563291997922 27.122998588377,38.052814772291 27.1187070539539,38.049705714989 27.1193936994618,38.046326155105 27.1242002180156,38.0437575852537 27.1247152021464,38.0461909694644 27.1250585248999,38.0526795986323 27.1248868635236,38.0594379757578 27.1338132551233,38.0641684684026 27.135014884762,38.0565995333792 27.139306419185,38.0559236975391 27.1513227155701,38.0607895762903 27.1538976362246,38.0567346997986 27.1557859113704,38.0521389015017 27.1629956892015,38.046326155105 27.1669439008711,38.0418648971766 27.1660855939859,38.0353753095051 27.1595624616627,38.0337528227332 27.1532109907167,38.0369977603366 27.1547559431089,38.0403777507959 27.1538976362246,38.0447039109459 27.1454862287548,38.0479483633195 27.1365598371542,38.0494353559398 27.1310666730924,38.047813180675 27.1307233503389,38.0420000908048</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.0510724714423,38.0672769113376 27.0658353498582,38.0510574952605 27.0747617414588,38.043487204239 27.0919278791512,38.0172555005054 27.0919278791512,38.0172555005054 27.0922712019056,38.0177964552137</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.154755943108,38.0402425541739 27.1727803876855,38.0433520133572 27.1834233930555,38.0414593147974 27.1916631391482,38.0452446629944</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.1626523664471,38.0597082978627 27.1726087263092,38.0611950515842 27.1762136152243,38.0584918405321 27.1803334882711,38.0538961525744 27.1854833295784,38.0511926719148 27.1863416364636,38.052409250568 27.1853116682012,38.0598434585403 27.1784452131245,38.0656551315024 27.1696904829011,38.0672769113383 27.1631673505778,38.0643036208433 27.1609357526777,38.0624114639786 27.1624807050699,38.060113779146</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2162107160489,38.0691689423751 27.2237638166336,38.0668714697497 27.2314027479065,38.0657227063798 27.2361234357721,38.0641684684041 27.2392991712456,38.0609923142191 27.239556663311,38.0563291997936 27.2314027479065,38.0365245492253</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2158673932945,38.0567346998 27.2246221235179,38.0573429455969 27.228913657941,38.0595055563785 27.2330335309877,38.0593703950775 27.2351792981988,38.0565319500777 27.2343209913146,38.052612011711 27.230372779645,38.0494353559412 27.2292569806954,38.0467993028825 27.2306302717104,38.0427436512983 27.2284845044993,38.041729703301 27.2175840070639,38.042540862822</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2142366102141,38.0372681653152 27.2217897107988,38.0376061701333 27.226853721418,38.0355781178266 27.2312310865302,38.0361189372664</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2314885785955,38.0361189372664 27.2321752241026,38.0341584477977 27.2385266950495,38.0298316646568 27.239556663311,38.0230705543639 27.2351792981988,38.0185402614178 27.2330335309877,38.0186078797898 27.2335485151185,38.0144154227813 27.2281411817449,38.000213383465</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2150090864102,38.0339556355473 27.2241929700753,38.0234086246969 27.2329477002987,38.0156326124252</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2011045148786,37.9954111193238 27.2020486524519,38.0006191941943 27.2044519117293,38.0093435816975 27.2033361127787,38.0162411996667 27.1987870862903,38.0225972532778 27.199302070421,38.0290879730661 27.2047094037946,38.0339556355473 27.2099450757901,38.0340232396929 27.2145799329677,38.0305077413691 27.2186998060144,38.0245580521615 27.2225621869949,38.0088701919582 27.2256520917793,38.0058945293197 27.2281411817449,38.0006868290981</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2106317212981,38.0095464620784 27.2129491498873,38.0062326788838 27.2171548536213,38.0004162891104 27.2208455732255,37.9994693912959 27.224021308699,38.000213383465 27.2180131605065,38.0057592690579 27.2162107160489,38.0063003086092 27.2138932874597,38.0096140887471 27.2110608747407,38.0105608555611 27.2106317212981,38.0098845947985</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2282270124339,38.000551559229 27.2277978589913,37.9937877476595 27.2280553510567,37.9887144796417</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2415307691458,37.9865497785046 27.246594779765,37.9897968062595 27.2615293195581,37.9939230300033 27.268567436012,37.9930436903059 27.2782663038087,37.9960198744351 27.2804979017089,37.9929084063396 27.2766355207275,37.9906085407439 27.2761205365967,37.9865497785046</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2704557111578,37.9937877476595 27.2737172773194,37.9868880172676</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2623876264423,37.9937201063933 27.2592977216579,37.9892556449465 27.2514871290078,37.9885791876915 27.2439340284222,37.9825584433481</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2913125684552,37.9909467607943 27.2950891187476,37.9930436903059 27.2956041028783,37.9954111193238 27.304616325167,37.9963580695362</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3744825055787,37.9520412345872 27.3822072675407,37.9528533866552 27.3882154157332,37.9559665530694 27.3974851300873,37.951905875036 27.4081281354564,37.9527180286005 27.4136212995182,37.9504169035142 27.4507001569347,37.9707184603926 27.4676946332507,37.9827613978317</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3844388654399,37.9628691905476 27.4161962201718,37.9667939303608 27.4307874372114,37.9653052606437 27.4367955854039,37.9707184603926</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3844388654399,37.9642225728005 27.399373405233,37.9719363753327 27.4101880719793,37.9791081312323 27.4417737653349,37.9869556648328 27.4608281781739,37.9864144825627</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3804906537712,37.9764018905739 27.4004033734945,37.9759959458687 27.4065831830642,37.9759959458687 27.4103597333565,37.9699065058739 27.4189428022027,37.9723423424892 27.4172261884342,37.9770784600938 27.4180844953185,37.9792434406454</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3142293622765,37.9482510728838 27.3355153730156,37.9417531979158 27.3533681562159,37.9230686068519 27.370362632532,37.8978775144094 27.370362632532,37.8978775144094 27.3667577436168,37.8969292941346</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3616079023086,37.9880380173969 27.3537114789703,37.9929084063396 27.3489049604156,38.0007544639387 27.3542264631011,38.0065708268877 27.3593763044084,38.0107637325726 27.3658994367317,38.0090054464807</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3538831403467,38.000213383465 27.3616079023086,38.0083291713705 27.3652127912246,37.9992664830299</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.327275626923,38.0292907987933 27.3543981244774,38.0541664951482</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3356870343928,38.0586270034558 27.3416951825853,38.042270477313</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3344854047541,38.0579511863386 27.3193792035838,38.0580863502616 27.3015264203835,38.0660605798311 27.3058179548066,38.0346992777196</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2232488325029,38.0949767633835 27.2292569806954,38.0940310878193 27.2294286420726,38.1057836150738</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2337201764957,38.1118617667569 27.2510579755652,38.1082149364365 27.2635892560819,38.1078097218288 27.2646192243434,38.1092954977345 27.2606710126738,38.1121318950938 27.2483113935353,38.1128072115639 27.2405866315733,38.1171290891162 27.2338918378729,38.117399197971 27.2335485151185,38.1203703294371 27.2417882612111,38.1234763830754 27.2447065046192,38.1263122296946 27.2524312665811,38.1261771918771 27.2580960920201,38.1299581563419 27.2486547162888,38.1383295950071</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.7413228680759,38.0464613404974 27.7224401166141,38.0559236975405 27.7093938519667,38.0707906443163 27.7172902753058,38.0734934009915 27.7200368573367,38.0786283635315 27.7299932171988,38.0837629655266 27.7344564129991,38.0807903451591 27.7547124554768,38.0875461257522 27.8388265301718,38.0943012820861</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.7540258099697,38.0453798503823 27.7842382123094,38.0497057149911</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.7255300213994,38.0451094753576 27.6874211957214,38.0637630095899</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.6342061688732,38.0507871412045 27.6812413861517,38.0680877877753</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.6651052167208,38.0616005246299 27.6695684125211,38.0553830243753 27.6853612591985,38.0467317105306 27.6582387616432,38.0505167861485</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.6503423383049,38.0551126862949 27.6592687299046,38.0505167861485 27.6499990155505,38.0353753095079 27.6627019574435,38.0259102966825 27.6554921796123,38.0137391975797 27.623563163504,38.0110342343832</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5991872479796,38.0456502244093 27.517476432561,37.9945317974658</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5246862103922,38.0018366129092 27.540822379824,38.0186078797898</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.6156667401649,38.0329415658715 27.5940374066723,38.0167145418058 27.5827077557943,38.0007544639394 27.5964406659487,37.9785668910842</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.602277152764,37.9996722989998 27.600903861749,37.9899320959642 27.5861409833331,37.9861438899318 27.5761846234711,37.9720716979686</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5696614911478,37.9996722989998 27.5573018720093,37.9948023591608 27.5504354169316,37.9750487328264 27.5401357343161,37.9758606304692 27.5380757977931,37.9693651978736 27.5233129193772,37.9658465985795 27.5171331098075,37.9368794146146 27.5078633954534,37.9214436353801</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.8583959271424,38.1067291385529 27.8762487103436,38.0986242545119</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.8923848797745,38.1051082336695 27.9813054730243,38.1161837002565</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.9195073773298,38.115373357207 27.9837087323016,38.1194249825394</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.0019048382555,38.1110513757542 28.0451635052417,38.0997049576618</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.047566764519,38.0972733530986 28.132367484722,38.0570050318899</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.0946019817976,38.1240165528297 28.1447271038605,38.1045679240496 28.2103017498473,38.0670066171958 28.2515004803106,38.0559236975413</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.2449773479874,38.0718717589716 28.2710698772803,38.0759257966118 28.2851461101892,38.0786283635322 28.2823995281583,38.0902482631997 28.3174184490518,38.0978137166608 28.3308080364518,38.0999751309525 28.3448842693607,38.1032171325187 28.3376744915295,38.115373357207 28.3469442058836,38.130228217739 28.3757833172074,38.1396797371192</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.2693532635118,38.0940310878193 28.301968925128,38.0818713120039 28.3836797405466,38.0483539097588 28.4080556560701,38.0459205974371</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.3026555706359,38.0826820266495 28.3222249676056,38.0861950195745 28.3390477825445,38.0799796095402 28.3678868938692,38.0797093623364 28.3826497722851,38.0864652428077 28.4008458782389,38.0816010717907 28.410802238101,38.0807903451598 28.4238485027475,38.0772770925557 28.4245351482554,38.0816010717907 28.4458211589945,38.0832224980863 28.4750035930728,38.072682584476 28.5137990642587,38.0451094753576</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.3452275921142,38.1042977677416 28.3781865764848,38.087275906515 28.3812764812692,38.0859247953418</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.4767202068422,38.0583566773587 28.5048726726581,38.0778176039427</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.4434178997181,38.1226661209527 28.5000661541043,38.0756555344263 28.5357717205058,38.0586270034572</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.8105024029787,38.0630872399049 27.8470662762654,38.0597082978634</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.8333333661109,38.0328063555211 27.851701133442,38.0336176138824 27.8858617474513,38.030102096091</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.8786519696201,38.0491649958942 27.8965047528204,38.0363217435274 27.965512626346,38.0175259783597 27.9917768170162,38.011575235008</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.923798911752,38.0493001760425 27.9447415997376,38.0576808577451</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.916760795298,38.088762099965 27.9428533245919,38.0867354650427 27.9689458538848,38.0778176039427 27.9756406475853,38.059843458541 27.965512626346,38.0490298154956 27.9389051129223,38.0553830243753 27.9136708905136,38.0534906368418 27.9126409222522,38.0609247349736 27.9162458111673,38.068763511273 27.9322103192219,38.0730879938576 27.9205373455904,38.0761960577979 27.9169324566752,38.088086561233</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.6888669661245,38.2755110788111 26.6967633894627,38.2951835560687 26.6861203840936,38.2976085607846 26.679253929016,38.2900638355196 26.677193992493,38.2701204285993</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.653848045231,38.3094629726733 26.6655210188615,38.2873691006797</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.6802838972774,38.304883088637 26.6737607649542,38.2749720317974 26.6737607649542,38.2447790129609</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.6600278547998,38.2852132407709 26.6679242781389,38.2404647003283</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.6765073469851,38.2477449543741 26.6593412092927,38.2356107925821 26.6576245955233,38.2067503201103</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.6353086165227,38.2410040034093 26.6614011458157,38.2118759128419</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.6490415266762,38.2272505252498 26.6480115584148,38.2188892969144 26.6325620344918,38.2051316368914</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.6346219710148,38.2932973852584 26.6353086165227,38.1986565440863 26.6353086165227,38.1986565440863 26.6346219710148,38.1970376809054</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.6301587752145,38.2857522117506 26.6315320662295,38.2763196418292 26.6195157698445,38.2372287978338</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5903333357671,38.2507107747661 26.6250089339062,38.2380377869586</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5927365950436,38.2590683447317 26.6226056746298,38.2048618528558</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5649274519812,38.2795538038646 26.593766563305,38.2585291756763</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5481046370424,38.2695813415696 26.5288785628262,38.2671554004198 26.5154889754253,38.2377681249173</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4983228377329,38.2469360732634 26.4684537581467,38.2323746740711 26.4396146468229,38.2277899263361</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4485410384235,38.2690422505385 26.4698270491626,38.2461271831512</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4564374617617,38.2604162498643 26.4646772078544,38.2706595116275 26.5130857161488,38.2903333035012 26.5185788802106,38.3105405504183 26.4804700545317,38.3555151310496</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4746335677164,38.3611686413362 26.4993528059944,38.3824326540191</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5148023299182,38.4222522116392 26.5608075789353,38.4020761232488</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5618375471968,38.4036904176339 26.5484479597959,38.418755426612 26.5381482771803,38.4343551603609 26.5154889754253,38.4437671625269 26.5151456526717,38.4437671625269 26.5134290389023,38.4284384166305 26.5419248274726,38.4348930221138</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5027860335332,38.4840904136011 26.580376975905,38.4512958806817</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5487912825503,38.4752212327055 26.5549710921191,38.4671573940423 26.5505078963197,38.4598991682163 26.5501645735653,38.4598991682163 26.5484479597959,38.4577484425148</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5741971663353,38.4542533764896 26.5820935896744,38.4432293668899 26.5796903303971,38.4287073700448</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5779737166277,38.4152584723153 26.5851834944588,38.400461792812</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5141156844103,38.4857028746997 26.5134290389023,38.4929585031856 26.5299085310876,38.5426533393993</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5230420760109,38.5450700508721 26.53368508138,38.5337913692151 26.5391782454418,38.5547360846283 26.5487912825503,38.570037980403</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5501645735653,38.4883902296933 26.5453580550115,38.5217051050048</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5408948592112,38.519556223292 26.5584043196579,38.5230481234967 26.5927365950436,38.5442644894049</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5844968489509,38.5388938490254 26.59239327229,38.5230481234967</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.6023496321521,38.5359398258787 26.6102460554903,38.511228700709</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5996030501212,38.4851653916758 26.6215757063683,38.4838216665775</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5827802351824,38.5029002148751 26.5539411238577,38.5251969009567</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.3874295882361,38.5192876085673 26.3894895247599,38.5324485512181 26.3980725936061,38.5273456142596 26.3956693343287,38.5147210048766</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4118055037605,38.4865090917201 26.4052823714373,38.4840904136011 26.3870862654825,38.4620498297946</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4011624983905,38.4469938521971 26.3994458846211,38.4620498297946 26.4152387312993,38.4693078391963</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.5007260970094,38.5684274079557 26.4742902449629,38.5668167994076</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4832166365626,38.5689642694496 26.4996961287479,38.6009003080282</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4825299910556,38.5917771748413 26.4780667952553,38.5949972365999 26.4801267317782,38.613509788681 26.4708570174241,38.6239712924644 26.4670804671317,38.6467667185779</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4818433455476,38.6231666155777 26.5000394515023,38.6100222816787</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.3908628157749,38.6092174482952 26.3771299056205,38.580505821322</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4306882552223,38.672503423204 26.459527366547,38.6507886883031</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4578107527776,38.6690187858674 26.4420179061002,38.6521292947051</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4657071761158,38.654274212769 26.4863065413479,38.6668743093577</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.4083722762217,38.6784001153749 26.4172986678223,38.6682146147032 26.4324048689917,38.6652659098251 26.4378980330535,38.6615128370825 26.4461377791461,38.6612447529318</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.3837522199329,38.5139151035657 27.3971418073337,38.5149896366419 27.4122480085032,38.5262712656282 27.4084714582108,38.5399680091842 27.4125913312576,38.5418477508626 27.414307945027,38.5364769300194 27.4359372785197,38.5442644894049 27.4359372785197,38.5496347287407 27.4149945905341,38.5493662262992 27.4180844953194,38.5590316825183 27.4297574689499,38.5649377104749 27.4191144635808,38.576479909176</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4366239240276,38.5595686142051 27.4307874372114,38.5762115070094 27.46443306709,38.6049248511093</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4507001569355,38.6084126058837 27.4647763898435,38.604656555259 27.5375608136615,38.576479909176 27.5502637555544,38.5635954740108</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5066617658147,38.5678905424513 27.5104383161071,38.5560784865432 27.5293210675688,38.5278827825609</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4575666120132,38.5367454805863 27.4668363263673,38.552856679835 27.4767926862285,38.5566154402905</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.47507607246,38.5582262774664 27.4925855329068,38.5359398258787</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4860624005826,38.5555415287859 27.4956754376912,38.5461441187923</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4465802838897,38.5450700508721 27.4664930036129,38.5388938490261 27.4774793317364,38.532717116823</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4620298078126,38.5386253064796 27.4709561994132,38.5421162813774 27.4795392682594,38.5517827121793</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4739173581649,38.5810425925593 27.4858478238618,38.574466868485</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4863628079925,38.578492893455 27.4934867551355,38.5730577064377</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4748614957382,38.5766812101424 27.4917701413661,38.5701721931443</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.0349067379688,38.2852806123621 28.0706123043703,38.2874364702699 28.0843452145247,38.2912090675297 28.1907752682204,38.2939036597942 28.2580665279766,38.3359263424501</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.0891517330785,38.377386381099 28.1138709713565,38.3736182677811 28.1234840084641,38.3639279324515 28.150949828773,38.366081452434 28.1791022945898,38.3493899967174 28.2594398189925,38.3353877442301</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.1791022945898,38.2696487276669 28.2079414059136,38.2874364702699 28.2354072262224,38.297137038437 28.3040717769937,38.2955203671259 28.3232978512098,38.2836636769108 28.3507636715187,38.2868975117958 28.3651832271811,38.2788126544556 28.3905891109661,38.281507706949 28.4098151851823,38.2965981520027 28.4221748043217,38.2998314105752 28.4455207515838,38.2895922641453 28.4784797359544,38.2885143752114 28.4997657466935,38.2718050497753 28.4949592281397,38.2491604746576 28.4956458736467,38.2491604746576 28.4908393550929,38.2486212320857</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.3940223385049,38.2696487276669 28.4262946773676,38.2308239829173</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.3487037349958,38.2496997132288 28.3850959469043,38.231363357503</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.3123115230863,38.2070875412506 28.3356574703493,38.1919785014939</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.2903388668392,38.1930578225931 28.3370307613643,38.1579717000331</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.2374671627454,38.1930578225931 28.2896522213322,38.1703887206876</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.3761695553046,38.1423124423847 28.3857825924122,38.1558120022997 28.4077552486593,38.1493325253353 28.4290412593984,38.1466325733764 28.4448341060758,38.1736275956426 28.4228614498287,38.1908991643987 28.439340942014,38.2038501538161 28.3727363277658,38.220035651189</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.2580665279766,38.3359263424501 28.2930854488701,38.3348491420065 28.3267310787487,38.3876131279944</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.0603126217547,38.3068363098436 28.0960181881562,38.3267696282329</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>28.0987647701871,38.3542362996429 28.0644324948006,38.3062974954537 28.0644324948006,38.3062974954537 28.0637458492935,38.3089915273755</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.8543189694393,38.2939036597942 27.9044440915031,38.3084527289964 27.9319099118111,38.3197666543538 27.981348388367,38.3434662971373</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.4285987546549,38.2065479866763 27.4292854001628,38.1952164168058 27.4107459714546,38.1768663266618</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.2680953672249,38.1639105389891 27.2696403196171,38.1547321294478 27.2656921079485,38.152437346544</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.382494323646,38.3247496090458 26.3965705565539,38.2999661265565</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.2808707885041,38.2987536737282 26.2982944182619,38.2993599026751</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.3374332122022,38.2735570143472 26.3552001647143,38.2665489024725</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>26.3227561644745,38.2470708874079 26.328850143356,38.2278573511918</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.0536044767497,38.1196950829041 27.0606425932036,38.1260421538126 27.0592693021887,38.1323886729431 27.0913699796741,38.1422449383105</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5083354642342,38.3809524504483 27.5210384061272,38.3810870156613 27.5387195279502,38.391716876433 27.5462726285358,38.393331402145 27.5538257291206,38.3940041105525 27.5661853482591,38.3988474263255 27.5780299832678,38.4100127235039</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.5319389035625,38.5123032738809 27.53657376074,38.5195562232934</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Obje adı tanımlanmadı</name>
+	<description>Açıklama girilmedi</description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>27.6318458249349,38.4092729077741 27.642488830305,38.4051028956477 27.6507285763976,38.4080622838794 27.6685813595979,38.4068516397043 27.6809409787373,38.4095419325518 27.6981071164297,38.4073897062861 27.7099517514384,38.4090038819948 27.7178481747766,38.4217815004397 27.7312377621775,38.4200331176914 27.7482322384936,38.4318674976357 27.7765563656867,38.4294469867722 27.7854827572873,38.4235298408698</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

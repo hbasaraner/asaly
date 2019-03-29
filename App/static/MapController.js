@@ -25,14 +25,11 @@ function createMap() {
     });
 
     var faultLayer2 = new google.maps.KmlLayer({
-        url: 'https://raw.githubusercontent.com/hbsrnr/asaly/updates/App/points/editor2.kml?token=AHMJueU3LAVL5T4GhYfmBcAnuI21MRIeks5cguOLwA%3D%3D',
+        url: 'https://raw.githubusercontent.com/hbsrnr/asaly/updates/App/points/fay2.kml?token=AHMJueU3LAVL5T4GhYfmBcAnuI21MRIeks5cguOLwA%3D%3D',
         map: map
     });
 
-    var faultLayer3 = new google.maps.KmlLayer({
-        url: 'https://raw.githubusercontent.com/hbsrnr/asaly/updates/App/points/fay2.kml?token=AHMJuY_pCdv9amCcm291_N4-ejVTtusbks5cguO9wA%3D%3D',
-        map: map
-    });
+  
 
     var infowindow = new google.maps.InfoWindow();
 
