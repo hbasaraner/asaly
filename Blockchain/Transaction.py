@@ -29,6 +29,6 @@ class Transaction:
     @staticmethod
     def signTransaction(transaction, senderWallet):
         transaction.input = {
-            "timeStamp": time.time(),
-            "address": senderWallet.publicKey
+            "TimeStamp": time.time(),
+            "Address": senderWallet.publicKey
         }

@@ -1,4 +1,5 @@
 from Block import Block
+from Transaction import Transaction
 
 
 class BlockChain:
@@ -23,3 +24,14 @@ class BlockChain:
                block.currentHash != Block.blockHash(block)):
                 return False
         return True
+
+    def getTransaction(self, blockChain, wallet, timeStamp):
+        targetTransaction = Transaction()
+        for block in blockChain.chain:
+            for transaction in block.data["transactions"]:
+                if transaction["Input"]["Address"] == str(wallet.publicKey):
+                    if transaction["Input"]["TimeStamp"] == str(timeStamp):
+                        targetTransaction.id = transaction["ID"]
+                        targetTransaction.input = transaction["Input"]
+                        targetTransaction.outputs = transaction["Outputs"]
+                        return targetTransaction

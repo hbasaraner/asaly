@@ -22,7 +22,10 @@ class Block:
         timeStamp = "MÖ:1234"
         lastHash = "asaly"
         data = {"transactions": [{'ID': "donald",
-                                  'Input': "trump",
+                                  'Input': {
+                                      "TimeStamp": "00",
+                                      "Address": "asaly"
+                                  },
                                   'Outputs': "Çikolatalaaarr Püskevitleer"
                                   }]}
         block = Block(timeStamp, lastHash, "", data)

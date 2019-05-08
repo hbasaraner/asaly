@@ -32,6 +32,24 @@ transaction2 = wallet.createTransaction(recipientWallet, {
 minedBlock = miner.mine(
     {"transactions": [transaction1.toDict(), transaction2.toDict()]})
 
-
+"""
 for block in blockChain.chain:
     print(block)
+    """
+
+"""
+recipientWallet.publicKey="asaly"
+transactiontime = recipientWallet.getTransaction(blockChain, "00")
+if transactiontime !=None:
+    print(transactiontime.toDict())
+"""
+
+"""
+recipientWallet.publicKey="asaly"
+for transact in recipientWallet.getAllTransactions(blockChain):
+    print(transact)
+"""
+
+wallet.publicKey = "asaly"
+t = blockChain.getTransaction(blockChain, wallet, "00")
+print(t.id)
