@@ -18,7 +18,7 @@ Dokuz Eylul University, Computer Sciences | Final Project: Post Disaster Smart L
   - _/App/templates/**index.html**_ dosyasını bulun ve açın.
   
 # Projeyi Çalıştırmak (Blockchain)
-* Blockchain klasöründe `python BlockChain.py` yazın ve enter'a basın.
+* Blockchain klasöründe `python Miner.py` yazın ve enter'a basın.
  
 # Projeyle çalışmak
 * Projeyi açtıktan sonra değişiklik yaparsanız değişikliğin geçerli olması için server'ı kapatıp tekrar açmanız gerek.
