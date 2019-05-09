@@ -3,11 +3,12 @@
 #   1 -> Deprem, 2->Sel, 3-> Heyelan, 4-> Yangın
 #   Simülasyon oluşturan sınıf
 
-from random import randint
+import random
+from Earthquake import Earthquake
 
 
 def earthquake():
-    print("deprem")
+    Earthquake(1).start()
 
 
 def flood():
@@ -33,5 +34,6 @@ def switchSimulation(a):
     return simulationFunction()
 
 
-simulationNumber = randint(1, 4)
+random.seed(6)
+simulationNumber = random.randint(1, 4)
 switchSimulation(simulationNumber)
