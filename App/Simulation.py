@@ -34,6 +34,6 @@ def switchSimulation(a):
     return simulationFunction()
 
 
-random.seed(6)
+
 simulationNumber = random.randint(1, 4)
-switchSimulation(simulationNumber)
+switchSimulation(1)

@@ -20,12 +20,12 @@ function createMap() {
     });
 
     var faultLayer1 = new google.maps.KmlLayer({
-        url: 'https://raw.githubusercontent.com/hbsrnr/asaly/updates/App/points/dirifaylar.kml?token=AfnJomtAz6E_q1QKH5OLnb-ccvyk8_kzks5cp1LzwA%3D%3D',
+        url: 'https://raw.githubusercontent.com/hbsrnr/asaly/updates/App/points/dirifaylar.kml?token=ABZQTONKERRXXXL3VVXTV5C44KHZU',
         map: map
     });
 
     var faultLayer2 = new google.maps.KmlLayer({
-        url: 'https://raw.githubusercontent.com/hbsrnr/asaly/updates/App/points/fay2.kml?token=AfnJosWQ3A2bhSnEVZcYn8j7jjzHr-vBks5cp1LSwA%3D%3D',
+        url: 'https://raw.githubusercontent.com/hbsrnr/asaly/updates/App/points/fay2.kml?token=ABZQTOJNIS6VJRMU4O73MCC44KHX4',
         map: map
     });
 
