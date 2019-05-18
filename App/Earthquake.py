@@ -27,6 +27,7 @@ class Earthquake:
         self.influenceList = [self.influence * 0.2]
         self.influenceList.append(self.influence * 0.5)
         self.influenceList.append(self.influence)
+        self.disasterCenter = {"lat":0,"lng":0}
 
         self.populationAffected = 0
         self.populationInjured = 0
@@ -60,6 +61,8 @@ class Earthquake:
 
         lat /= len(coordinates)
         lng /= len(coordinates)
+        self.disasterCenter={"lat":lat,"lng":lng}
+
 #   Mahalle bilgisinden depremde etkilenecek kişi sayısını bulmak
         f = open("points\Mahalle_Bilgileri.txt", "r", encoding='utf-8')
         populationLines = f.readlines()
@@ -87,14 +90,32 @@ class Earthquake:
                         self.populationInjured += int(
                             populationCount * 0.1 * ((self.magnitude * 10) / populationCount * 0.1))
 
-#   Toplanma noktalarının seçilmesi
-        
 
-        print("Coordinate: "+str(self.randCoordinate))
+        self.findGatheringPoints()
+
+        print("Coordinate: "+str(self.disasterCenter))
         print("Magnitude: "+str(self.magnitude))
         print("Influence: "+str(self.influenceList))
         print("AffectedPeople: "+str(self.populationAffected))
         print("InjuredPeople: "+str(self.populationInjured))
+
+    def findGatheringPoints(self):
+#   Toplanma noktalarının seçilmesi
+        f = open("points\Toplanma_Alarları_ve_Kapasiteler.txt", "r", encoding='utf-8')
+        distancesBetweenPoints=[]    #  deprem merkezine uzaklığı hesaplanmış toplanma noktaları
+        gatheringPoints = f.readlines()
+        for point in gatheringPoints:
+            p = point.split(",")
+            name = p[0]
+            lat = float(p[1])
+            lng = float(p[2])
+            capacity = int(p[3])
+            distance  = Earthquake.haversine(self.disasterCenter["lng"],self.disasterCenter["lat"],lng,lat)
+            distancesBetweenPoints.append([name,lat,lng,capacity,distance])
+        
+        distancesBetweenPoints.sort(key= lambda x:x[4])
+        for d in distancesBetweenPoints:
+            print(d)
 
     
         
