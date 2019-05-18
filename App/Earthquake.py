@@ -29,12 +29,13 @@ class Earthquake:
         self.disasterCenter = {"lat": 0, "lng": 0}
 
         self.populationAffected = 0
+        self.populationAtGatheringPoints = 0
         self.populationInjured = 0
 
     @staticmethod
     def haversine(lon1, lat1, lon2, lat2):
         """
-        Calculate the great circle distance between two points 
+        Calculate the great circle distance between two points
         on the earth (specified in decimal degrees)
         """
         # convert decimal degrees to radians
@@ -90,6 +91,7 @@ class Earthquake:
                             populationCount * 0.1 * ((self.magnitude * 10) / populationCount * 0.1))
 
         self.findGatheringPoints()
+        self.findDepots()
 
         print("Coordinate: "+str(self.disasterCenter))
         print("Magnitude: "+str(self.magnitude))
@@ -99,12 +101,12 @@ class Earthquake:
 
     def findGatheringPoints(self):
         #   Toplanma noktalarının seçilmesi
-        f = open("points\Toplanma_Alarları_ve_Kapasiteler.txt",
+        f = open("points\\Toplanma_Alarları_ve_Kapasiteler.txt",
                  "r", encoding='utf-8')
         # deprem merkezine uzaklığı hesaplanmış toplanma noktaları
-        distancesBetweenPoints = []
-        gatheringPoints = f.readlines()
-        for point in gatheringPoints:
+        gatheringPoints = []
+        gatheringPointsLines = f.readlines()
+        for point in gatheringPointsLines:
             p = point.split(",")
             name = p[0]
             lat = float(p[1])
@@ -113,19 +115,49 @@ class Earthquake:
             distance = Earthquake.haversine(
                 self.disasterCenter["lng"], self.disasterCenter["lat"], lng, lat)
             if distance > self.influenceList[1]:
-                distancesBetweenPoints.append(
+                gatheringPoints.append(
                     [name, lat, lng, capacity, distance])
 
-        distancesBetweenPoints.sort(key=lambda x: x[4])
+        gatheringPoints.sort(key=lambda x: x[4])
         toplam = self.populationAffected
         i = 0
         temp = 0
-        for i in range(len(distancesBetweenPoints)):
-            temp += distancesBetweenPoints[i][3]
-            toplam -= distancesBetweenPoints[i][3]
+        for i in range(len(gatheringPoints)):
+            temp += gatheringPoints[i][3]
+            toplam -= gatheringPoints[i][3]
             if toplam <= 0:
                 break
-        distancesBetweenPoints = distancesBetweenPoints[0:i+1]
+        gatheringPoints = gatheringPoints[0:i+1]
+        self.gatheringPoints = gatheringPoints
         
+        if self.populationAffected > temp:
+            self.populationAtGatheringPoints = temp
+        else:
+            self.populationAtGatheringPoints = self.populationAffected
+
         #   Toplanma alanlarının kapasitesi
-        print("Kapasite: "temp)
+        print("Toplanma noktaları Kapasitesi: " + str(temp))
+
+    def findDepots(self):
+        f = open("points\\Depolar.txt",
+                 "r", encoding='utf-8')
+        _depots = f.readlines()
+        depots = []
+        #   Find depot distances from disastercenter
+        for _depot in _depots:
+            depot = _depot.split(",")
+            distance = Earthquake.haversine(
+                float(depot[2]), float(depot[1]), self.disasterCenter["lng"], self.disasterCenter["lat"])
+            depot.append(distance)
+            depots.append(depot)
+        depots.sort(key=lambda x: x[11])
+
+        _populationAtGatheringPoints = self.populationAtGatheringPoints
+        i = 0
+        for i in range(len(depots)):
+            _populationAtGatheringPoints -= int(depots[i][10])
+            if _populationAtGatheringPoints <= 0:
+                break
+        depots = depots[:i + 1]
+
+        
