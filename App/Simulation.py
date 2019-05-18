@@ -8,7 +8,11 @@ from Earthquake import Earthquake
 
 
 def earthquake():
-    Earthquake(1).start()
+    e = Earthquake(1)
+    e.start()
+   
+    
+    
 
 
 def flood():
