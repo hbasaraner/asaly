@@ -4,30 +4,29 @@ from math import radians, cos, sin, asin, sqrt, log
 
 class Earthquake:
     def __init__(self, randomSeed):
-        
+
         fDiri = open("points\dirifaylar.txt", "r")
         fFay = open("points\\aktiffay.txt", "r")
-        
+        random.seed(7)
         r = random.random()
         if r < 0.6:
             self.lines = fDiri.readlines()
         else:
             self.lines = fFay.readlines()
+
         self.randCoordinate = random.choice(self.lines)
 
         self.coordinate = {"lat": 10, "lng": 10}
 
-        random.seed(1)
         #   üstel dağılıuma uygun bul
         self.magnitude = random.random() * 5 + 4
 
-        random.seed(1)
         #   influence değerini magnitude kullanarak tekrar bul
         self.influence = random.random() * 80 + 20
         self.influenceList = [self.influence * 0.2]
         self.influenceList.append(self.influence * 0.5)
         self.influenceList.append(self.influence)
-        self.disasterCenter = {"lat":0,"lng":0}
+        self.disasterCenter = {"lat": 0, "lng": 0}
 
         self.populationAffected = 0
         self.populationInjured = 0
@@ -61,7 +60,7 @@ class Earthquake:
 
         lat /= len(coordinates)
         lng /= len(coordinates)
-        self.disasterCenter={"lat":lat,"lng":lng}
+        self.disasterCenter = {"lat": lat, "lng": lng}
 
 #   Mahalle bilgisinden depremde etkilenecek kişi sayısını bulmak
         f = open("points\Mahalle_Bilgileri.txt", "r", encoding='utf-8')
@@ -76,20 +75,19 @@ class Earthquake:
             if populationCount != 0:
                 if (distance <= self.influence):
                     if (distance <= self.influenceList[0]):
-                        self.populationAffected += populationCount
+                        self.populationAffected += int(populationCount * 0.85)
                         self.populationInjured += int(
-                            populationCount * ((self.magnitude * 10) / populationCount))
+                            populationCount * 0.85 * ((self.magnitude * 10) / populationCount * 0.85))
 
                     elif (distance > self.influenceList[0] and distance <= self.influenceList[1]):
-                        self.populationAffected += int(populationCount * 0.5)
+                        self.populationAffected += int(populationCount * 0.4)
                         self.populationInjured += int(
-                            populationCount * 0.5 * ((self.magnitude * 10) / populationCount * 0.5))
+                            populationCount * 0.4 * ((self.magnitude * 10) / populationCount * 0.4))
 
                     elif (distance > self.influenceList[1] and distance <= self.influenceList[2]):
                         self.populationAffected += int(populationCount * 0.1)
                         self.populationInjured += int(
                             populationCount * 0.1 * ((self.magnitude * 10) / populationCount * 0.1))
-
 
         self.findGatheringPoints()
 
@@ -100,9 +98,11 @@ class Earthquake:
         print("InjuredPeople: "+str(self.populationInjured))
 
     def findGatheringPoints(self):
-#   Toplanma noktalarının seçilmesi
-        f = open("points\Toplanma_Alarları_ve_Kapasiteler.txt", "r", encoding='utf-8')
-        distancesBetweenPoints=[]    #  deprem merkezine uzaklığı hesaplanmış toplanma noktaları
+        #   Toplanma noktalarının seçilmesi
+        f = open("points\Toplanma_Alarları_ve_Kapasiteler.txt",
+                 "r", encoding='utf-8')
+        # deprem merkezine uzaklığı hesaplanmış toplanma noktaları
+        distancesBetweenPoints = []
         gatheringPoints = f.readlines()
         for point in gatheringPoints:
             p = point.split(",")
@@ -110,12 +110,22 @@ class Earthquake:
             lat = float(p[1])
             lng = float(p[2])
             capacity = int(p[3])
-            distance  = Earthquake.haversine(self.disasterCenter["lng"],self.disasterCenter["lat"],lng,lat)
-            distancesBetweenPoints.append([name,lat,lng,capacity,distance])
-        
-        distancesBetweenPoints.sort(key= lambda x:x[4])
-        for d in distancesBetweenPoints:
-            print(d)
+            distance = Earthquake.haversine(
+                self.disasterCenter["lng"], self.disasterCenter["lat"], lng, lat)
+            if distance > self.influenceList[1]:
+                distancesBetweenPoints.append(
+                    [name, lat, lng, capacity, distance])
 
-    
+        distancesBetweenPoints.sort(key=lambda x: x[4])
+        toplam = self.populationAffected
+        i = 0
+        temp = 0
+        for i in range(len(distancesBetweenPoints)):
+            temp += distancesBetweenPoints[i][3]
+            toplam -= distancesBetweenPoints[i][3]
+            if toplam <= 0:
+                break
+        distancesBetweenPoints = distancesBetweenPoints[0:i+1]
         
+        #   Toplanma alanlarının kapasitesi
+        print("Kapasite: "temp)
