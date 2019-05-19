@@ -7,7 +7,7 @@ class Earthquake:
 
         fDiri = open("points\dirifaylar.txt", "r")
         fFay = open("points\\aktiffay.txt", "r")
-        random.seed(7)
+        random.seed(17)
         r = random.random()
         if r < 0.6:
             self.lines = fDiri.readlines()
@@ -159,5 +159,6 @@ class Earthquake:
             if _populationAtGatheringPoints <= 0:
                 break
         depots = depots[:i + 1]
+        self.depots = depots
 
         
