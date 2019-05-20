@@ -1,5 +1,5 @@
 import random
-from math import radians, cos, sin, asin, sqrt, log
+from math import radians, cos, sin, asin, sqrt, log, pow, exp
 
 
 class Earthquake:
@@ -7,7 +7,7 @@ class Earthquake:
 
         fDiri = open("points\dirifaylar.txt", "r")
         fFay = open("points\\aktiffay.txt", "r")
-        random.seed(17)
+        random.seed(5)
         r = random.random()
         if r < 0.6:
             self.lines = fDiri.readlines()
@@ -22,8 +22,8 @@ class Earthquake:
         self.magnitude = random.random() * 5 + 4
 
         #   influence değerini magnitude kullanarak tekrar bul
-        self.influence = random.random() * 80 + 20
-        self.influenceList = [self.influence * 0.2]
+        self.influence = pow(self.magnitude, exp(1))
+        self.influenceList = [self.influence * 0.1]
         self.influenceList.append(self.influence * 0.5)
         self.influenceList.append(self.influence)
         self.disasterCenter = {"lat": 0, "lng": 0}
@@ -114,9 +114,11 @@ class Earthquake:
             capacity = int(p[3])
             distance = Earthquake.haversine(
                 self.disasterCenter["lng"], self.disasterCenter["lat"], lng, lat)
+            """
             if distance > self.influenceList[1]:
-                gatheringPoints.append(
-                    [name, lat, lng, capacity, distance])
+            """
+            gatheringPoints.append(
+                [name, lat, lng, capacity, distance])
 
         gatheringPoints.sort(key=lambda x: x[4])
         toplam = self.populationAffected

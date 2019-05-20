@@ -4,9 +4,10 @@ from Earthquake import Earthquake
 
 
 class Simplex:
-    def __init__(self, _depots, _gatheringPoints):
+    def __init__(self, _depots, _gatheringPoints, productTypes, _populationAtGatheringPoints):
         self.depots = _depots
         self.gatheringPoints = _gatheringPoints
+        self.populationAtGatheringPoints = _populationAtGatheringPoints
 
     def solve(self):
         depotsCount = len(self.depots)
@@ -33,15 +34,20 @@ class Simplex:
                 variables[i].append(x)
 
         print('Number of variables = ', solver.NumVariables())
-        # x + 7 * y <= 17.5.
+        
 
         for j in range(len(variables[0])):
             solver.Add(solver.Sum([variables[i][j]
-                                   for i in range(depotsCount)]) == 1)
+                                   for i in range(depotsCount)]) >= 1)
+
+        for i in range(depotsCount):
+            solver.Add(solver.Sum(
+                [variables[i][j] * self.gatheringPoints[j][3]
+                 for j in range(len(variables[0]))]) <= int(self.depots[i][10]))
 
         print('Number of constraints = ', solver.NumConstraints())
 
-        # Maximize x + 10 * y.ü
+        
 
         solver.Minimize(solver.Sum([distanceMatrix[i][j] * variables[i][j]
                                     for i in range(depotsCount)
@@ -69,5 +75,7 @@ class Simplex:
 #   Find Constraints
 earthquake = Earthquake(1)
 earthquake.start()
-simplex = Simplex(earthquake.depots, earthquake.gatheringPoints)
+simplex = Simplex(earthquake.depots, earthquake.gatheringPoints, 7,
+                  earthquake.populationAtGatheringPoints)
+# 7 değeri, 7 farklı ürün olduğu anlamına gelmekte.
 simplex.solve()
