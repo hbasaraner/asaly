@@ -35,16 +35,19 @@ class Simplex:
 
         print('Number of variables = ', solver.NumVariables())
         
-
+        # Bir toplanma noktasına birden fazla depo atanabilir.
+        for j in range(len(variables[0])):
+            solver.Add(solver.Sum([variables[i][j]
+                                   for i in range(depotsCount)]) <= depotsCount)
+        
+        # Bir toplanma noktası en az bir depoya atanmalı.
         for j in range(len(variables[0])):
             solver.Add(solver.Sum([variables[i][j]
                                    for i in range(depotsCount)]) >= 1)
+        
+        
 
-        for i in range(depotsCount):
-            solver.Add(solver.Sum(
-                [variables[i][j] * self.gatheringPoints[j][3]
-                 for j in range(len(variables[0]))]) <= int(self.depots[i][10]))
-
+        
         print('Number of constraints = ', solver.NumConstraints())
 
         
